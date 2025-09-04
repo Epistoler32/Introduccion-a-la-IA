@@ -1,0 +1,24 @@
+es_un(Colectivo,Deporte)
+es_un(Individual,Deporte)
+
+es_un(Futbol,Colectivo)
+es_un(Baloncesto,Colectivo)
+es_un(Voleibol,Colectivo)
+
+es_un(Tenis,Individual)
+es_un(Atletismo,Individual)
+es_un(Natacion,Individual)
+
+
+instancia(Messi,Futbol)
+instancia(James,Futbol)
+instancia(Curry,Baloncesto)
+instancia(Nadal,Tenis)
+instancia(Phelps,Natacion)
+
+
+atributo(Messi,nombre,Lionel Messi)
+atributo(Nadal,nombre,Rafael Nadal)
+atributo(Curry,triples,4000)
+atributo(Nadal,slams,22)
+atributo(Phelps,medallas,23)
